@@ -1,5 +1,5 @@
 import * as fsp from "node:fs/promises";
-import { nodeFileTrace } from "@vercel/nft";
+import { nodeFileTrace } from "@nftrs/core";
 import { dirname, join, normalize, relative, resolve } from "pathe";
 import semver from "semver";
 import { resolveModulePath } from "exsolve";

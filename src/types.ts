@@ -1,4 +1,4 @@
-import type { NodeFileTraceOptions, NodeFileTraceResult } from "@vercel/nft";
+import type { NodeFileTraceOptions, NodeFileTraceResult } from "@nftrs/core";
 import type { PackageJson } from "pkg-types";
 
 export interface ExternalsPluginOptions {

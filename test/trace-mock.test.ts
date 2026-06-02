@@ -9,7 +9,7 @@ import {
   seedPackages,
 } from "./_mock-utils.ts";
 
-const { nodeFileTrace } = await import("@vercel/nft");
+const { nodeFileTrace } = await import("@nftrs/core");
 const { traceNodeModules } = await import("../src/trace.ts");
 const mockNodeFileTrace = vi.mocked(nodeFileTrace);
 

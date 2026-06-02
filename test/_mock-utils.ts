@@ -15,7 +15,7 @@ export function resetMockFs() {
 
 // --- vi.mock declarations (hoisted to top-level by vitest) ---
 
-vi.mock("@vercel/nft", () => ({
+vi.mock("@nftrs/core", () => ({
   nodeFileTrace: vi.fn(),
 }));
 
